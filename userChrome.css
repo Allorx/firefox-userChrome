@@ -1,0 +1,20 @@
+@-moz-document url(chrome://browser/content/browser.xhtml){
+
+* {
+    font-family: monospace !important;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: center;
+}
+
+#urlbar:not([focused]) #urlbar-input {
+    text-align: center !important;
+}
+
+#urlbar:not([breakout][breakout-extend]) #urlbar-input {
+    text-align: center !important;
+}
+
+}
